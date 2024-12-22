@@ -1,0 +1,12 @@
+.toggleBtn{
+  width:20px;
+  border:none;
+}
+
+.sidebar{
+  width: 200px;
+}
+
+.closed{
+  width:80px;
+}
