@@ -3,7 +3,7 @@ import React from 'react'
 const Compiler = () => {
   return (
     <div>
-      Compiler.............
+      compiler..
     </div>
   )
 }

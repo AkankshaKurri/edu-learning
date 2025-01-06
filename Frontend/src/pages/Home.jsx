@@ -1,6 +1,6 @@
 import React from 'react';
-import Features from '../components/Features.jsx';
-import Heroes from '../components/Heroes.jsx';
+import Features from '../components/Homepage/Features.jsx';
+import Heroes from '../components/Homepage/Heroes.jsx';
 
 
 const Home = () => {

@@ -1,0 +1,56 @@
+.wrapperContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.notesNavbar{
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:5px 0px;
+  background-color: #0d6efd;
+  width: auto;
+  color:white;
+  padding:12px;
+}
+
+.navPlusIcon{
+  cursor: pointer;
+  background-color: #5aa9ff;
+  height:45px;
+  width:45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:13px 0px;
+}
+
+.searchInput{
+  width:50vw;
+  background-color:whitesmoke;
+  border: none;
+  padding: 9px;
+  border-radius: 2px;
+}
+
+.searchButton{
+  background-color:whitesmoke;
+  color: gray;
+  border: none;
+  padding: 9px;
+  border-radius: 2px;
+}
+
+.notesWrapper{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:2rem;
+}
