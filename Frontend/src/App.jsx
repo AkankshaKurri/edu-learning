@@ -34,7 +34,7 @@ function App() {
             <div className="content-area  mx-auto ">
             <Routes>
                {/* Navbar se jo bhi hum click karenge woh page render hoga */}
-               <Route path='/' element={<Home/>}/>
+               <Route path='/home' element={<Home/>}/>
                <Route path='/features' element={<Features/>}/>
                <Route path='/courses' element={<Courses/>}/>
                <Route path='/faqs' element={<FAQs/>}/>

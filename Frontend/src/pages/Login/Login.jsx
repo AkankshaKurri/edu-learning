@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { FaGoogle } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -9,7 +10,7 @@ const Login = () => {
   const [email , setEmail] = useState('');
   const [password , setPassword] = useState('');
   const [errorMessage  ,  setErrorMessage] = useState('');
-
+  const navigate = useNavigate();
 
   const handleSubmit = async(e) => {
       e.preventDefault();
@@ -21,8 +22,12 @@ const Login = () => {
           password,
         });
   
-        // Handle the successful login response (e.g., redirect or show a message)
-        alert('Login successful!');
+        if (response.status === 200) {
+          alert('Login successful!');
+          // Redirect to the home page after successful login
+          navigate('/home'); // Use navigate to redirect to the Home page
+        }
+        
       } catch (error) {
         if (error.response) {
           // If the server responded with a status code outside the 2xx range
