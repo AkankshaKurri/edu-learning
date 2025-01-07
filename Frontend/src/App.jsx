@@ -14,7 +14,7 @@ import Login from "./pages/Login/Login";
 import SignUp from "./pages/SignUp/SignUp";
 import Dashboard from "./pages/Dashboard";
 import Notes from "./pages/Notes/Notes";
-import Compiler from "./pages/Compiler";
+import Compiler from "./pages/Compiler/Compiler";
 import Certificates from "./pages/Certificates";
 import Badges from "./pages/Badges";
 import Favourites from "./pages/Favourites";
@@ -31,7 +31,7 @@ function App() {
             {/* Sab pages mei sidebar display hoga */}
             <SideBar/> 
 
-            <div className="content-area  mx-auto ">
+            <div className="content-area">
             <Routes>
                {/* Navbar se jo bhi hum click karenge woh page render hoga */}
                <Route path='/home' element={<Home/>}/>

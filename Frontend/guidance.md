@@ -40,4 +40,9 @@ npm i react-router-dom
 
 npm install axios
 
+## Monaco editor install karne ke liye
+ 
+npm install @monaco-editor/react monaco-editor
+
+## 
 

@@ -41,7 +41,7 @@ const SideBar = () => {
       
       <ul className="nav nav-pills flex-column mb-auto">
         <li className="nav-item">
-          <NavLink to="/" className={`nav-link link-body-emphasis ${selectedTab =="Home" ? "active text-white" : ""}`} aria-current="page" onClick={() => handleMenuItems("Home")}>
+          <NavLink to="/home" className={`nav-link link-body-emphasis ${selectedTab =="Home" ? "active text-white" : ""}`} aria-current="page" onClick={() => handleMenuItems("Home")}>
             <GoHome /> {isOpen ? "Home" : " "}
           </NavLink>
         </li>

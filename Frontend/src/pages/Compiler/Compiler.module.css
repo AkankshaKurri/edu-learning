@@ -1,0 +1,24 @@
+.output{
+  background-color: black;
+  width: 50vw;
+}
+
+.runBtn {
+  margin-left: 444px;
+}
+
+.language{
+  margin-left: 13px;
+}
+
+.text{
+  display:flex;
+}
+
+.langText{
+  margin-left: 6px;
+}
+
+.outputText{
+  margin-left: 646px;
+}
