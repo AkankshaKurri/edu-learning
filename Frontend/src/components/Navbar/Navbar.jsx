@@ -1,15 +1,18 @@
 import { NavLink } from "react-router-dom";
 import styles from "../../components/Navbar/Navbar.module.css";
+import { GiBrain } from "react-icons/gi";
 
 const Navbar = () => {
+
   return (
      <nav className={`${styles.navbar} p-2 text-bg-dark`}>
         <div className="container">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-              <svg className="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlinkHref="#bootstrap"></use></svg>
-            </a>
-
+            <div className="logo d-flex">
+            <GiBrain className={styles.gibrain} />   
+            <h4 className={styles.brand}>Bright Learning</h4>
+            </div>
+            
             <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li><NavLink to="/home" className="nav-link px-2 text-secondary">Home</NavLink></li>
               <li><NavLink to="/features" className="nav-link px-2 text-white">Features</NavLink></li>

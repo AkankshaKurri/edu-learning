@@ -35,7 +35,6 @@ int main() {
   return 0;
 }`
   }
- 
 }
 
 
@@ -81,4 +80,4 @@ const Compiler = () => {
   </>
 }
 
-export default Compiler
+export default Compiler;

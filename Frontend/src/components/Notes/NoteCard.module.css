@@ -1,6 +1,15 @@
-
+.noteCardContainer{
+  border: 2px solid black;
+  padding: 37px;
+  border-radius: 8px;
+}
 
 .cardTitle{
   font-size: 1.5rem;
   overflow: hidden;
 }
+
+.cardFooter{
+  display:flex;
+}
+

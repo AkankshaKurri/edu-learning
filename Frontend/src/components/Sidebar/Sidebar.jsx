@@ -17,7 +17,7 @@ import {NavLink} from "react-router-dom";
 const SideBar = () => {
   //Agar sidebar open rahega toh arrow left hona chahiye
   //Agar sidebar close rahega toh arrow right hona chahiye
-  const [isOpen , setIsOpen] = useState(true);
+  const [isOpen , setIsOpen] = useState(false);
 
   //Agar sidebar se koi tab select rahega toh active karna.
   const [selectedTab , setSelectedTab] = useState("Home");

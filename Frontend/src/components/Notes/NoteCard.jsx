@@ -14,10 +14,10 @@ const NoteCard = () => {
 
           <span className='card-details'>Read More</span>
 
-          <div className='cardFooter'>
+          <div className={styles.cardFooter}>
              <span>{new Date().toString()}</span>
 
-             <div className='cardActions'>
+             <div className={styles.cardActions}>
                   <div className='actionItem'>
                     <FiEdit />
                   </div>
