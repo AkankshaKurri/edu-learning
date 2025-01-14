@@ -9,15 +9,13 @@
   flex-direction: row;
   justify-content: space-between;
   margin:5px 0px;
-  background-color: #0d6efd;
   width: auto;
-  color:white;
   padding:12px;
 }
 
 .navPlusIcon{
   cursor: pointer;
-  background-color: #5aa9ff;
+  background-color: #d6d6d6;
   height:45px;
   width:45px;
   border-radius: 50%;

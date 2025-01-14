@@ -1,0 +1,26 @@
+.searchInputDiv{
+  display:flex;
+}
+
+.search_section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:13px 0px;
+}
+
+.searchInput{
+  width:50vw;
+  background-color:whitesmoke;
+  border: none;
+  padding: 9px;
+  border-radius: 2px;
+}
+
+.searchButton{
+  background-color:whitesmoke;
+  color: gray;
+  border: none;
+  padding: 9px;
+  border-radius: 2px;
+}

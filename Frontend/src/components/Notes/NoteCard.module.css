@@ -1,7 +1,5 @@
 .noteCardContainer{
-  border: 2px solid black;
   padding: 37px;
-  border-radius: 8px;
 }
 
 .cardTitle{
@@ -11,5 +9,28 @@
 
 .cardFooter{
   display:flex;
+  justify-content: space-between;
 }
 
+.cardActions{
+  display:flex;
+  gap:1rem;
+}
+
+
+.editIcon{
+  color:blue;
+}
+
+.deleteIcon{
+  color:red;
+}
+
+.actionItem:hover{
+  cursor:pointer;
+  opacity: 1;
+}
+
+.cardDetails{
+  cursor:pointer;
+}
