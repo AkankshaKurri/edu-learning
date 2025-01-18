@@ -1,24 +1,14 @@
 .output{
-  background-color: black;
+  background-color: #1e1e1e;
   width: 50vw;
-}
-
-.runBtn {
-  margin-left: 444px;
+  color:grey;
+  padding:12px;
 }
 
 .language{
   margin-left: 13px;
-}
-
-.text{
   display:flex;
-}
-
-.langText{
-  margin-left: 6px;
-}
-
-.outputText{
-  margin-left: 646px;
+  justify-content: space-between;
+  margin:auto;
+  padding: 4px 18px;
 }
