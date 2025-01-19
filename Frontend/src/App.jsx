@@ -20,13 +20,10 @@ import Badges from "./pages/Badges";
 import Favourites from "./pages/Favourites";
 import Forum from "./pages/Forum";
 import UploadVideo from "./pages/UploadVideo";
-import {AuthProvider} from './context/AuthContext'; 
-import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
     <> 
-    <AuthProvider>
       <Router>
          {/* Sab pages mei navbar diplay hoga */}
          <Navbar/>
@@ -46,12 +43,12 @@ function App() {
                <Route path='/signup' element={<SignUp/>}/>
 
                {/*Sidebar se jo bhi hum click karenge woh page render hoga */}
-               <Route path='/dashboard' element={<PrivateRoute><Dashboard/></PrivateRoute>}/>
-               <Route path='/notes' element={<PrivateRoute><Notes/></PrivateRoute>}/>
+               <Route path='/dashboard' element={<Dashboard/>}/>
+               <Route path='/notes' element={<Notes/>}/>
                <Route path='/compiler' element={<Compiler/>}/>
                <Route path='/certificates' element={<Certificates/>}/>
-               <Route path='/badges' element={<PrivateRoute><Badges/></PrivateRoute>}/>
-               <Route path='/favourites' element={<PrivateRoute><Favourites/></PrivateRoute>}/>
+               <Route path='/badges' element={<Badges/>}/>
+               <Route path='/favourites' element={<Favourites/>}/>
                <Route path='/forum' element={<Forum/>}/>
                <Route path='/uploadvideo' element={<UploadVideo/>}/>
             </Routes>
@@ -59,7 +56,6 @@ function App() {
          </div>
          <Footer/>
       </Router>
-    </AuthProvider>  
     </>
   );
 }

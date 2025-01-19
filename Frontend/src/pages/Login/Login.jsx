@@ -20,7 +20,6 @@ const Login = () => {
   
       if (response.status === 200) {
         alert('Login successful!');
-        localStorage.setItem('authToken', response.data.token); // Store the token in local storage
         navigate('/home');
       }
     } catch (error) {
