@@ -46,5 +46,21 @@ npm install @monaco-editor/react monaco-editor
 
 ## For youtube api 
 
+Go to google developers console
+create project
+Name:elearning app
+create
+
+apne project mei jane ka
+search karne ka youtube data api v3
+fir us par click kar
+
+fir enable karna
+
+API KEY:AIzaSyAHmlIhVeKXKnasgUq4a-PYsEKF1Dg1Fn0
+
+
+
+
 
 

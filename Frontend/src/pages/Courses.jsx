@@ -5,9 +5,8 @@ const Courses = () => {
   return (
     <div>
       <Searchbar/>
-      Courses
     </div>
-  )
+  );
 }
 
 export default Courses;
