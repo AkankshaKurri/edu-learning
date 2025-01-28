@@ -12,7 +12,7 @@ import Courses from "./pages/Courses";
 import About from "./pages/About";
 import Login from "./pages/Login/Login";
 import SignUp from "./pages/SignUp/SignUp";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/Dashboard/Dashboard";
 import Notes from "./pages/Notes/Notes";
 import Compiler from "./pages/Compiler/Compiler";
 import Certificates from "./pages/Certificates";
@@ -33,6 +33,7 @@ function App() {
 
             <div className="content-area">
             <Routes>
+             
                {/* Navbar se jo bhi hum click karenge woh page render hoga */}
                <Route path='/home' element={<Home/>}/>
                <Route path='/features' element={<Features/>}/>

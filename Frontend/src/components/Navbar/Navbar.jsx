@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import styles from "../../components/Navbar/Navbar.module.css";
-import { GiBrain } from "react-icons/gi";
 
 const Navbar = () => {
 
@@ -8,9 +7,8 @@ const Navbar = () => {
      <nav className={`${styles.navbar} p-2 text-bg-dark`}>
         <div className="container">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <div className="logo d-flex">
-            <GiBrain className={styles.gibrain} />   
-            <h4 className={styles.brand}>Bright Learning</h4>
+            <div className="logo d-flex"> 
+              <h4 className={styles.brand}>Bright Learning</h4>
             </div>
             
             <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
@@ -29,10 +27,11 @@ const Navbar = () => {
             <div className="text-end">
               <NavLink to="/login" className="btn btn-outline-light me-2">Login</NavLink>
               <NavLink to="/signup" className="btn btn-warning">Sign-up</NavLink>
-              <div class="dropdown">
+
+              <div className="dropdown">
                 <a href="#" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="https://github.com/mdo.png" alt="" width="32" height="32" className="rounded-circle me-2"/>
-                  <strong>mdo</strong>
+                  <strong>Alexa</strong>
                 </a>
                 <ul className="dropdown-menu dropdown-menu-dark text-small shadow">
                   <li><a className="dropdown-item" href="#">New project...</a></li>
@@ -42,6 +41,7 @@ const Navbar = () => {
                   <li><a className="dropdown-item" href="#">Sign out</a></li>
                 </ul>
               </div>
+
             </div>
           </div>
         </div>

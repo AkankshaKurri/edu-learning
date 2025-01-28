@@ -3,7 +3,7 @@ import { IoSearchSharp } from "react-icons/io5";
 import { FaPlus } from "react-icons/fa6";
 import NoteCard from "../../components/Notes/NoteCard";
 import styles from '../../pages/Notes/Notes.module.css';
-import UpdateNote from "../../pages/Notes/UpdateNote";
+import UpdateNote from "../../pages/Notes/AddNote";
 import NoteDetails from "../../pages/Notes/NoteDetails";
 import { useState } from 'react';
 

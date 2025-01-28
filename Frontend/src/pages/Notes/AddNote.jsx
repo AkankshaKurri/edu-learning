@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from '../../pages/Notes/UpdateNote.module.css';
+import styles from '../../pages/Notes/AddNote.module.css';
 
-const UpdateNote = ({setOpen}) => {
+const AddNote = ({setOpen}) => {
   return (
-    <div className={`${styles.updateNote} modal modal-sheet position-fixed d-block p-4 py-md-5`} tabindex="-1" role="dialog" id="modalSheet">
+    <div className={`${styles.addNote} modal modal-sheet position-fixed d-block p-4 py-md-5`} tabindex="-1" role="dialog" id="modalSheet">
       <div className="modal-dialog" role="document">
         <div className="modal-content rounded-4 shadow">
           <div className="modal-header border-bottom-0">
@@ -35,4 +35,4 @@ const UpdateNote = ({setOpen}) => {
   );
 };
 
-export default UpdateNote;
+export default AddNote;

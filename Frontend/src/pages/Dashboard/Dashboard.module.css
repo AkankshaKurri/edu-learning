@@ -1,0 +1,48 @@
+.cards{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:32px;
+}
+
+.box{
+  width:400px;
+  height: 150px;
+  border:2px solid white;
+  padding:12px;
+  color:white;
+  font-weight: 600; 
+  margin:8px;
+}
+
+.box1{
+  background-color: rgb(34 86 76);
+}
+
+.box2{
+  background-color: rgb(216 125 10 / 72%);
+}
+
+.box3{
+  background-color: rgb(173, 51, 255);
+}
+
+.box4{
+  background-color: rgb(209 24 108 / 81%);
+}
+
+.box5{
+  background-color: rgb(49 8 212);
+}
+
+.charts {
+  width: 100%;
+  height: 420px; 
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  margin:20px;
+}
+
+.chart1 , .chart2 {
+  width: 80%;
+  height: 80%;
+}

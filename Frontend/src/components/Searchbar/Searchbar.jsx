@@ -52,25 +52,24 @@ const Searchbar = () => {
           </button>
        </div>
 
-       <div className="search_result_div">
+       <div className={styles.searchResultDiv}>
            {error && <div className="alert alert-danger">{error}</div>} 
       
-                {videoData.map((video) => (
-                     <div className="shadow-sm p-3 bg-body-tertiary rounded border border-1 d-flex col" key={video.id.VideoId}>
-                        <div className="search_result_img">
-                             <img src={video.snippet.thumbnails.medium.url} alt="{video.snippet.title}"/>
-                        </div>
-                        <div className="search_result_title ml-4">
-                           <h3>{video.snippet.title}</h3>
-                           <br></br>
-                           <p>{video.snippet.description}</p>
-                           <button 
-                             href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
-                             target="_blank"
-                           >Watch Video</button>
-                        </div>     
-                     </div>
-                ))}
+           {videoData.map((video) => (
+                <div className={`${styles.courseCard} shadow-sm p-3 bg-body-tertiary rounded border border-1`} key={video.id.VideoId}>
+                   <div className="search_result_img">
+                        <img src={video.snippet.thumbnails.medium.url} alt="{video.snippet.title}"/>
+                   </div>
+                   <div className="search_result_title_description">
+                      <h3 className={styles.title}>{video.snippet.title}</h3>
+                      <p className={styles.description}>{video.snippet.description}</p>
+                      <button className={`${styles.button} bg-primary rounded-4 border border-1`}><a 
+                        href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
+                        target="_blank"
+                      >Watch Video</a></button>
+                   </div>     
+                </div>
+           ))}
 
        </div>
 

@@ -11,9 +11,9 @@ const Features = () => {
   return (
   <div className="container px-4 py-5" id="hanging-icons">
     <h2 className="pb-2 border-bottom">Why Choose Us ?</h2>
-    <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <div className="col d-flex align-items-start">
-        <div className="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+    <div className="row g-2 py-5 row-cols-1 row-cols-lg-3 ">
+      <div className="col d-flex align-items-start p-4 ">
+        <div className="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 mt-2">
           <svg className="bi" width="1em" height="1em"><BiSolidVideos /><use xlinkHref="#toggles2"></use></svg>
         </div>
         <div>
@@ -24,8 +24,8 @@ const Features = () => {
           </a>
         </div>
       </div>
-      <div className="col d-flex align-items-start">
-        <div className="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+      <div className="col d-flex align-items-start p-4">
+        <div className="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 mt-2">
           <svg className="bi" width="1em" height="1em"><GrCertificate /><use xlinkHref="#cpu-fill"></use></svg>
         </div>
         <div>
@@ -36,8 +36,8 @@ const Features = () => {
           </a>
         </div>
       </div>
-      <div className="col d-flex align-items-start">
-        <div className="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+      <div className="col d-flex align-items-start p-4">
+        <div className="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 mt-2">
           <svg className="bi" width="1em" height="1em"><IoChatbubbleOutline /><use xlinkHref="#tools"></use></svg>
         </div>
         <div>
@@ -48,8 +48,8 @@ const Features = () => {
           </a>
         </div>
       </div>
-      <div className="col d-flex align-items-start">
-        <div className="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+      <div className="col d-flex align-items-start p-4">
+        <div className="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 mt-2">
           <svg className="bi" width="1em" height="1em"><PiVideoLight /><use xlinkHref="#tools"></use></svg>
         </div>
         <div>
@@ -59,9 +59,9 @@ const Features = () => {
           Upload Your Content
           </a>
         </div>
-      </div>
-      <div className="col d-flex align-items-start">
-        <div className="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+      </div> 
+      <div className="col d-flex align-items-start p-4">
+        <div className="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 mt-2">
           <svg className="bi" width="1em" height="1em"><LiaCertificateSolid /><use xlinkHref="#tools"></use></svg>
         </div>
         <div>
@@ -72,8 +72,8 @@ const Features = () => {
           </a>
         </div>
       </div>
-      <div className="col d-flex align-items-start">
-        <div className="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+      <div className="col d-flex align-items-start p-4">
+        <div className="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 mt-2">
           <svg className="bi" width="1em" height="1em"><SiCompilerexplorer /><use xlinkHref="#tools"></use></svg>
         </div>
         <div>
@@ -84,8 +84,8 @@ const Features = () => {
           </a>
         </div>
       </div>
-      <div className="col d-flex align-items-start">
-        <div className="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+      <div className="col d-flex align-items-start p-4">
+        <div className="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 mt-2">
           <svg className="bi" width="1em" height="1em"><FaRegPenToSquare /><use xlinkHref="#tools"></use></svg>
         </div>
         <div>
@@ -96,8 +96,8 @@ const Features = () => {
           </a>
         </div>
       </div>
-      <div className="col d-flex align-items-start">
-        <div className="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+      <div className="col d-flex align-items-start p-4">
+        <div className="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 mt-2">
           <svg className="bi" width="1em" height="1em"><SiChatbot /><use xlinkHref="#tools"></use></svg>
         </div>
         <div>

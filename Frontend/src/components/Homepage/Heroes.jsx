@@ -1,3 +1,6 @@
+import imageone from "/src/assets/imageone.png";
+import imagetwo from "/src/assets/imagetwo.png";
+
 const Heroes = () => {
   return <>
     <div className="container my-5">
@@ -11,7 +14,7 @@ const Heroes = () => {
         </div>
       </div>
       <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img className="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720"/>
+          <img className="rounded-lg-3" src={imageone} alt="" width="510"/>
       </div>
     </div>
     </div>
@@ -19,7 +22,7 @@ const Heroes = () => {
    <div className="container col-xxl-8 px-4 py-5">
    <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
      <div className="col-10 col-sm-8 col-lg-6">
-       <img src="bootstrap-themes.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+       <img src={imagetwo} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
      </div>
      <div className="col-lg-6">
        <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Empower Your Learning – For Free!</h1>

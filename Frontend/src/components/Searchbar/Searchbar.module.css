@@ -1,5 +1,6 @@
 .searchInputDiv{
-  display:flex;
+  display: table;
+  margin:8px auto;
 }
 
 .search_section{
@@ -23,4 +24,42 @@
   border: none;
   padding: 9px;
   border-radius: 2px;
+}
+
+.courseCard{
+  margin:30px;
+  width: 350px;
+  height: 420px;
+  position:relative;
+}
+
+.searchResultDiv{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.title{
+  margin:6px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description{
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+.button{
+  color:white;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  padding: 10px 20px;
+  bottom:12px;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+  font-weight: 600;
 }
