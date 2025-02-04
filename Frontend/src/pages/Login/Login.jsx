@@ -32,7 +32,7 @@ const Login = () => {
   };  
 
   return (
-  <div className="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabIndex="-1" role="dialog">
+  <div className="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabIndex="-1" role="dialog"  style={{ margin: '0px 250px' }}>
     <div className="modal-dialog" role="document">
       <div className="modal-content rounded-4 shadow">
         <div className="modal-header p-5 pb-4 border-bottom-0">

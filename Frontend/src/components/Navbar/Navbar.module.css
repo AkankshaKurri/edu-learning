@@ -11,3 +11,8 @@
   margin-right: 63px;
   font-size: 23px;
 }
+
+.textEnd{
+  display:flex;
+  gap:7px;
+}

@@ -1,0 +1,21 @@
+.container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin:15px;
+  gap:30px;
+}
+
+.cardBody{
+  width:425px;
+  height:325px;
+  transition: transform 0.5s;
+}
+
+.cardBody:hover{
+  transform: scale(1.1);
+}
+
+.cardTitle{
+  margin-bottom:10px;
+  font-weight: 800;
+}

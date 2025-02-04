@@ -1,0 +1,43 @@
+.heading{
+  align-items: center;
+  justify-content:center;
+  display:flex;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.container{
+  margin:0px 239px;
+}
+
+.imageOne{
+  margin: auto;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  height:550px;
+  width:900px;
+}
+
+.subheading{
+  font-size:x-large;
+  margin: 8px 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section{
+  margin-bottom: 82px;
+}
+
+.card{
+  transition: transform 0.5s;
+}
+
+.card:hover{
+   transform: scale(1.1);
+}
+
+.offerings{
+  font-family: 'Times New Roman', Times, serif;
+}

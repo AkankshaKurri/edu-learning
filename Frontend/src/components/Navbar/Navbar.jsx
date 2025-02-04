@@ -24,7 +24,7 @@ const Navbar = () => {
               <button className="btn btn-outline-success" type="submit">Search</button>
             </form> */}
 
-            <div className="text-end">
+            <div className={styles.textEnd}>
               <NavLink to="/login" className="btn btn-outline-light me-2">Login</NavLink>
               <NavLink to="/signup" className="btn btn-warning">Sign-up</NavLink>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
                   <strong>Alexa</strong>
                 </a>
                 <ul className="dropdown-menu dropdown-menu-dark text-small shadow">
-                  <li><a className="dropdown-item" href="#">New project...</a></li>
+                  {/* <li><a className="dropdown-item" href="#">New project...</a></li> */}
                   <li><a className="dropdown-item" href="#">Settings</a></li>
                   <li><a className="dropdown-item" href="#">Profile</a></li>
                   <li><hr className="dropdown-divider"/></li>
@@ -43,6 +43,7 @@ const Navbar = () => {
               </div>
 
             </div>
+
           </div>
         </div>
     </nav>
