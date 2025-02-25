@@ -6,7 +6,7 @@ import { SiChatbot } from "react-icons/si";
 import { FaRegPenToSquare } from "react-icons/fa6";
 import { PiVideoLight } from "react-icons/pi";
 import { BiSolidVideos } from "react-icons/bi";
-import styles from '../Homepage/Features.module.css'
+import styles from '../Homepage/HomeFeatures.module.css'
 
 const Features = () => {
   return (

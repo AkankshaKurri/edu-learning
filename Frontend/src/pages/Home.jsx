@@ -1,5 +1,5 @@
 import React from 'react';
-import Features from '../components/Homepage/Features.jsx';
+import Features from '../components/Homepage/HomeFeatures.jsx';
 import Heroes from '../components/Homepage/Heroes.jsx';
 
 
